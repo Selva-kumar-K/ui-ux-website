@@ -23,7 +23,7 @@ export function Navbar(){
                 </div>
             </div>
             <div className="flex gap-x-4">
-                <p className="hidden lg:block lg:font-semibold lg:text-[#585858] lg:mr-[40px]" >Open an Account</p>
+                <p className="hidden lg:block lg:font-semibold lg:text-[#585858] lg:pr-[40px]" >Open an Account</p>
                 <Image src={User} alt="User"/>
                 <Image src={Menu} alt="Menu" className="lg:hidden"/>
                 <span className="hidden lg:block font-semibold text-[#585858]">Sign in</span>
